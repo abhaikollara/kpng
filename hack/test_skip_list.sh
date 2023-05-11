@@ -138,10 +138,7 @@ GINKGO_SKIP_dual_ipvs_TEST="should work after the service has been recreated\
 |should mirror a custom Endpoint with multiple subsets and same IP address\
 |should be able to change the type from ExternalName to NodePort"
 
-GINKGO_SKIP_ipv4_nft_TEST="should check kube-proxy urls\
-|should work with the pod containing more than 6 DNS search paths and longer than 256 search list characters\
-|should run through the lifecycle of Pods and PodStatus\
-|should support a Service with multiple endpoint IPs specified in multiple EndpointSlices\
+GINKGO_SKIP_ipv4_nft_TEST="should support a Service with multiple endpoint IPs specified in multiple EndpointSlices\
 |should mirror a custom Endpoint with multiple subsets and same IP address\
 |should support a Service with multiple ports specified in multiple EndpointSlices"
 

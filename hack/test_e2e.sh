@@ -570,7 +570,6 @@ function run_tests {
    export KUBE_CONTAINER_RUNTIME=remote
    export KUBE_CONTAINER_RUNTIME_ENDPOINT=unix:///run/containerd/containerd.sock
    export KUBE_CONTAINER_RUNTIME_NAME=containerd
-   
    "${bin_dir}/ginkgo" --nodes="${GINKGO_NUMBER_OF_NODES}" \
            --focus="${ginkgo_focus}" \
            --skip="${ginkgo_skip}" \
