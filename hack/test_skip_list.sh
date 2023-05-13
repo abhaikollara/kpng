@@ -86,7 +86,6 @@ GINKGO_SKIP_ipv6_ipvs_TEST="should have session affinity work for NodePort servi
 |should provide DNS for the cluster\
 |should run through the lifecycle of Pods and PodStatus\
 |should function for endpoint-Service: http\
-|should be able to connect to terminating and unready endpoints if PublishNotReadyAddresses is true\
 |should support a Service with multiple endpoint IPs specified in multiple EndpointSlices\
 |should serve endpoints on same port and different protocols\
 |should support a Service with multiple ports specified in multiple EndpointSlices\
